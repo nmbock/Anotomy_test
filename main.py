@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-file_path = r"C:\Users\nathan\Documents\Padova_Lessons\Privacy Preserving Information Access\Final Presentation\archive\Sleep_health_and_lifestyle_dataset.csv"
+file_path = r".\Sleep_health_and_lifestyle_dataset.csv"
 data = pd.read_csv(file_path)
 
 # Fix missing values in the sensitive attribute
